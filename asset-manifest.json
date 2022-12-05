@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/novinmovie/static/css/main.b3f10f6f.css",
+    "main.js": "/novinmovie/static/js/main.417f9462.js",
+    "static/js/787.e4948e5e.chunk.js": "/novinmovie/static/js/787.e4948e5e.chunk.js",
+    "index.html": "/novinmovie/index.html",
+    "main.b3f10f6f.css.map": "/novinmovie/static/css/main.b3f10f6f.css.map",
+    "main.417f9462.js.map": "/novinmovie/static/js/main.417f9462.js.map",
+    "787.e4948e5e.chunk.js.map": "/novinmovie/static/js/787.e4948e5e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3f10f6f.css",
+    "static/js/main.417f9462.js"
+  ]
+}
