@@ -14,15 +14,17 @@ const App = () => {
   const PopularMovieList = () => {
     return popularMovies.map((movie, i) => {
       return (
-        <div className="Movie-Wrapper" key={i}>
-          <div className="Movie-Title">{movie.title}</div>
-          <img
-            className="Movie-Image"
-            alt="huhu"
-            src={`${process.env.REACT_APP_BASEIMAGEURL}/${movie.poster_path}`}
-          />
-          <div className="Movie-Date">{movie.release_date}</div>
-          <div className="Movie-Rating">{movie.vote_average}</div>
+        <div className="Movie-Container">
+          <div className="Movie-Wrapper" key={i}>
+            <div className="Movie-Title">{movie.title}</div>
+            <img
+              className="Movie-Image"
+              alt="huhu"
+              src={`${process.env.REACT_APP_BASEIMAGEURL}/${movie.poster_path}`}
+            />
+            <div className="Movie-Date">{movie.release_date}</div>
+            <div className="Movie-Rating">Rating : {movie.vote_average}</div>
+          </div>
         </div>
       );
     });

@@ -10,7 +10,7 @@
 
 
 .App-header {
-  background-color: #282c34;
+  background-color: #A2D2FF;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -32,11 +32,13 @@
   width: 100%;
   gap: 20px;
 }
+
 .Movie-Wrapper{
-  
-  width: 500px;
-  background-color: antiquewhite;
+  width: 175px;
+  background-color: #f0a6ca;
   color: black;
+  padding: 12px;
+  border-radius: 16px;
 }
 
 .Movie-Search{
@@ -46,4 +48,21 @@
   padding: 20px;
   font-weight: bold;
   width: 450px;
+}
+
+.Movie-Title{
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
+.Movie-Image{
+  width: 170px;
+}
+
+.Movie-Date {
+  font-size: 19px;
+}
+.Movie-Rating {
+  font-size: 19px;
 }
